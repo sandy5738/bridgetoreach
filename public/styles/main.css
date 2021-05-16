@@ -403,6 +403,27 @@ hr {
 /* Mobile */
 
 @media screen and (max-width: 500px){
+
+  .showcase .container,
+  .core-features .container,
+  .social-proof .container,
+  .volunteer .container,
+  .nav-bar .container{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .showcase-text {
+    margin: 0 3em;
+}
+  .footer .container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .footer {
+    padding: 3em;
+}
     .nav-bar {
         height: 150px;
         background-color: #fafafafd;
@@ -455,5 +476,13 @@ hr {
         padding: 1em 0;
         align-items: center;
     }
+    .test-img {
+      width: 130px;
+      height: 130px;
+
+    }
+    .core-features {
+    padding-top: 0;
+}
 
 }
