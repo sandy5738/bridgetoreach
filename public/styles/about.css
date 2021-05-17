@@ -101,7 +101,7 @@
         grid-template-columns: repeat(1, 1fr);
     }
     .showcase, .showcase-text {
-        height: 60vh;
+        /* height: 60vh; */
     }
     .showcase-text h3 {
         padding-top: 3.5em;
@@ -148,7 +148,7 @@
         grid-template-columns: repeat(1, 1fr);
     }
     .showcase, .showcase-text {
-        height: 60vh;
+        /* height: 60vh; */
     }
     .showcase-text h3 {
         padding-top: 7em;
@@ -218,14 +218,14 @@
         grid-template-columns: repeat(1, 1fr);
     }
     .showcase, .showcase-text {
-        height: 60vh;
+        /* height: 60vh; */
     }
     .showcase-text h3 {
-        padding-top: 5em;
+        padding-top: 2em;
         font-size: 38px;
     }
     .showcase-text {
-        margin: 0 3em;
+        margin: 0 ;
     }
     .about-right h1 {
         font-size: 36px;
@@ -255,7 +255,7 @@
         margin: 0 5em;
     }
     .leader-text h1 {
-        font-size: 42px;
+        font-size: 36px;
     }
     .leaders .card img{
         width: 90px;

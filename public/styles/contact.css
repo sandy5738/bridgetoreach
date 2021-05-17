@@ -60,7 +60,7 @@
         grid-template-columns: repeat(1, 1fr);
     }
     .showcase, .showcase-text {
-        height: 60vh;
+        /* height: 60vh; */
     }
     .showcase-text h3 {
         padding-top: 3.5em;

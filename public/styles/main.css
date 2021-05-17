@@ -498,7 +498,7 @@ hr {
         margin: 0 10px;
     }
     .showcase {
-        height: 60vh;
+        /* height: 60vh; */
     }
     .showcase-text h1 {
         font-size: 24px;
@@ -529,7 +529,7 @@ hr {
     }
     
     .social-proof {
-        height: 90vh;
+        /* height: 90vh; */
     }
     .volunteer-text h1 {
         font-size: 36px;
