@@ -486,3 +486,59 @@ hr {
 }
 
 }
+
+/* Mobile and under */
+
+@media screen and (max-width: 400px) {
+    .showcase-img {
+        display: none;
+    }
+    .showcase-text {
+        margin: 0 10px;
+    }
+    .showcase {
+        height: 60vh;
+    }
+    .showcase-text h1 {
+        font-size: 24px;
+    }
+    .showcase p{
+        font-size: 12px;
+    }
+    .core-features {
+        padding-top: 0;
+    }
+    .core-head h3 {
+        font-size: 14px;
+        margin: 0 2em;
+    }
+    .testimonial-top img{
+        height: 120px;
+        width: 120px;
+        border-radius: 250px;
+    }
+    .quote-left, .quote-right {
+        font-size: 100px;
+    }
+    .social-proof-text h3 {
+        font-size: 16px;
+    }
+    .social-proof-text h1 {
+        font-size: 30px;
+    }
+    
+    .social-proof {
+        height: 90vh;
+    }
+    .volunteer-text h1 {
+        font-size: 36px;
+    }
+    .volunteer-text {
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+    .footer {
+        padding: 2em;
+        color: rgb(206, 206, 206);
+    }
+}

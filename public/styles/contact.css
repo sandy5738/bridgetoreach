@@ -1,40 +1,129 @@
-.container{    
-    margin: 0%;
-    height:100vh;
-    width:100%;
+.showcase {
     background-image: url("/images/contact-hero.png");
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: cover;
+}
+.showcase-text h3, .showcase-text p {
+    color: #fff;
 }
 
-.heading h1 {
-    position: absolute;
-    width: 644px;
-    height: 167px;
-    left: 121px;
-    top: 485px;
-
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 96px;
-    line-height: 117px;
-
-    color: #FFFFFF;
+.showcase-text h3 {
+    padding-top: 6em;
+}
+.showcase-text p{
+    border: none;
+    padding:0;
+}
+.map h3 {
+    /* font-family: Playfair Display; */
+    color: var(--tertiary-color);
+    padding: 1em;
+    background-image: url("/images/contact-map.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+.newsletter {
+    height: 80vh;
+    background-color: var(--background-color);
+}
+.newsletter-text {
+    text-align: center;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+.newsletter-form-control input {
+    border: none;  
+    border-bottom: 2px #000 solid;  
+    width: 100%;
+    margin-bottom: 2em;
+    font-size: 18px;
+    background-color: transparent;
+}
+.newsletter-form-control input:focus {
+    outline: none;
+}
+.newsletter-form-control label {
+    font-size: 20px;
+}
+.newsletter .grid {
+    gap: 80px;
 }
 
-.heading p{
-    position: absolute;
-    width: 538px;
-    height: 87px;
-    left: 121px;
-    top: 629px;
-
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
+/* Tablet and under */
+@media screen and (max-width: 768px){
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .showcase, .showcase-text {
+        height: 60vh;
+    }
+    .showcase-text h3 {
+        padding-top: 3.5em;
+    }
+    .newsletter h1{
+        font-size: 48px;
+    }
+    .newsletter .grid {
+        gap: 20px;
+    }
+    .map h3 {
+    /* font-family: Playfair Display; */
+    color: var(--tertiary-color);
+    padding: 1em;
+    background-image: url("/images/contact-map.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
     font-size: 24px;
-    line-height: 29px;
+    margin-bottom: 40px;
+    }
+    
+}
 
-    color: #FFFFFF;
+
+/* Mobile */
+@media screen and (max-width: 500px) {
+    .showcase-text h3 {
+        padding-top: 7em;
+        font-size: 38px;
+    }
+}
+
+
+/* Mobile and under */
+@media (max-width: 400px) {
+    .showcase-text h3 {
+        padding-top: 4.5em;
+        font-size: 38px;
+    }
+    .showcase-text {
+        margin: 0 3em;
+    }
+    .newsletter h1{
+        font-size: 36px;
+    }
+    .newsletter-form-control input {
+        font-size: 16px;
+    }
+    .newsletter-form-control input:focus {
+        outline: none;
+    }
+    .newsletter-form-control label {
+        font-size: 16px;
+    }
+    .newsletter .grid {
+        gap: 0;
+    }
+    .map h3 {
+        height: 30vh;
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+    .footer .container {
+        padding: 0;
+    }
+    .footer {
+        padding: 3em;
+    }
 }
