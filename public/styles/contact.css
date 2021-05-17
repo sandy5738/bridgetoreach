@@ -8,7 +8,7 @@
 }
 
 .showcase-text h3 {
-    padding-top: 6em;
+    padding-top: 3em;
 }
 .showcase-text p{
     border: none;
@@ -23,8 +23,12 @@
     background-size: cover;
     height: 80vh;
 }
+.map {    
+    padding-bottom: 3em;
+}
 .newsletter {
-    height: 80vh;
+    /* height: 80vh; */
+    padding: 5em 0;
     background-color: var(--background-color);
 }
 .newsletter-text {
@@ -98,7 +102,7 @@
         font-size: 38px;
     }
     .showcase-text {
-        margin: 0 3em;
+        margin: 0;
     }
     .newsletter h1{
         font-size: 36px;

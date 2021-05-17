@@ -2,6 +2,7 @@
     background-image: url("/images/about-us-hero.png");
     background-repeat: no-repeat;
     background-size: cover;
+    /* padding: 4em 0 ; */
 }
 
 .showcase-text h3, .showcase-text p {
@@ -9,7 +10,7 @@
 }
 
 .showcase-text h3 {
-    padding-top: 6em;
+    padding-top: 3em;
 }
 .showcase-text p{
     border: none;
