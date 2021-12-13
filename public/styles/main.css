@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap");
+@import url("../fonts/CenturyGothicBold.ttf");
+@import url("../fonts/CenturyGothic.ttf");
 
 :root {
   --primary-color: #f36235;
