@@ -119,125 +119,125 @@ ul {
 /* Margin */
 /* 1rem = 16px */
 
-my-1 {
+.my-1 {
     margin: 1rem 0;
 }
 
-my-2 {
+.my-2 {
     margin: 1.5rem 0;
 }
 
-my-3 {
+.my-3 {
     margin: 2rem 0;
 }
 
-my-4 {
+.my-4 {
     margin: 3rem 0;
 }
 
-my-5 {
+.my-5 {
     margin: 0 4rem 0;
 }
 
-mx-1 {
+.mx-1 {
     margin: 0 1rem;
 }
 
-mx-2 {
+.mx-2 {
     margin: 0 1.5rem;
 }
 
-mx-3 {
+.mx-3 {
     margin: 0 2rem;
 }
 
-mx-4 {
+.mx-4 {
     margin: 0 3rem;
 }
 
-mx-5 {
+.mx-5 {
     margin: 0 4rem;
 }
 
-m-1 {
+.m-1 {
     margin: 1rem;
 }
 
-m-2 {
+.m-2 {
     margin: 1.5rem;
 }
 
-m-3 {
+.m-3 {
     margin: 2rem;
 }
 
-m-4 {
+.m-4 {
     margin: 3rem;
 }
 
-m-5 {
+.m-5 {
     margin: 4rem;
 }
 
 /* Padding */
 /* 1rem = 16px */
 
-py-1 {
+.py-1 {
     padding: 1rem 0;
 }
 
-py-2 {
+.py-2 {
     padding: 1.5rem 0;
 }
 
-py-3 {
+.py-3 {
     padding: 2rem 0;
 }
 
-py-4 {
+.py-4 {
     padding: 3rem 0;
 }
 
-py-5 {
+.py-5 {
     padding: 0 4rem 0;
 }
 
-px-1 {
+.px-1 {
     padding: 0 1rem;
 }
 
-px-2 {
+.px-2 {
     padding: 0 1.5rem;
 }
 
-px-3 {
+.px-3 {
     padding: 0 2rem;
 }
 
-px-4 {
+.px-4 {
     padding: 0 3rem;
 }
 
-px-5 {
+.px-5 {
     padding: 0 4rem;
 }
 
-p-1 {
+.p-1 {
     padding: 1rem;
 }
 
-p-2 {
+.p-2 {
     padding: 1.5rem;
 }
 
-p-3 {
+.p-3 {
     padding: 2rem;
 }
 
-p-4 {
+.p-4 {
     padding: 3rem;
 }
 
-p-5 {
+.p-5 {
     padding: 4rem;
 }
