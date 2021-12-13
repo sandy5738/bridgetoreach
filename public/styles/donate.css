@@ -1,0 +1,20 @@
+.donate {
+  width: 60%;
+  margin: 2em auto;
+}
+
+.donate h1 {
+  font-size: 48px;
+  text-transform: uppercase;
+  color: var(--tertiary-color);
+}
+
+@media (max-width: 700px) {
+  .donate {
+    width: 80%;
+  }
+
+  .donate h1 {
+    font-size: 36px;
+  }
+}

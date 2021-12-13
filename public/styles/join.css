@@ -1,0 +1,44 @@
+.form-control {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2em auto;
+}
+.join {
+  width: 50%;
+}
+.form-control h1 {
+  text-transform: uppercase;
+  font-size: 48px;
+  color: var(--tertiary-color);
+}
+.form-control input {
+  border: none;
+  border-bottom: 2px #000 solid;
+  width: 100%;
+  margin-bottom: 2em;
+  font-size: 18px;
+  background-color: transparent;
+}
+.form-control input:focus {
+  outline: none;
+}
+.form-control label {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 700px) {
+  .join {
+    width: 80%;
+  }
+
+  .form-control h1 {
+    font-size: 36px;
+  }
+
+  .form-control label {
+    font-size: 16px;
+  }
+}
